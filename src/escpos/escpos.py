@@ -44,7 +44,6 @@ from .exceptions import ImageWidthError
 from .magicencode import MagicEncode
 
 from abc import ABCMeta, abstractmethod  # abstract base class support
-from escpos.image import EscposImage
 from escpos.capabilities import get_profile, BARCODE_B
 
 
